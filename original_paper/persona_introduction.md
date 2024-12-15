@@ -3,7 +3,7 @@ Here is a brief introduction to the persona part in the original paper.
 
 # **1. Interconnections Between Modules**
 The structure of these cognitive modules suggests a modular and interconnected system where:  
-- **perception_module.py** provides environmental or interaction data.
+- **perceive.py** provides environmental or interaction data.
 - **memory_module.py** encodes and stores this data.
 - **retrieval_module.py** fetches the relevant memories when required.
 - **planning_module.py** uses memories and perceptions to sets goals and strategies.
@@ -29,7 +29,7 @@ The structure of these cognitive modules suggests a modular and interconnected s
   Decay or forgetting: Simulating human-like memory by discarding less relevant information over time.
 * May interface with vector databases or embeddings to handle memory as searchable entities.
 
-## **1.3 perception_module.py**  
+## **1.3 perceive.py**  
 **Purpose:** Provides the agent with the ability to perceive and interpret its environment.
 **Core functionality:**  
 - Processes inputs from the simulated environment, such as:  
